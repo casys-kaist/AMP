@@ -1,0 +1,30 @@
+[submodule "slow-memory-emulation"]
+	path = slow-memory-emulation
+	url = git@github.com:casys-kaist/slow-memory-emulation.git
+[submodule "AMP-experiment-scripts"]
+	path = AMP-experiment-scripts
+	url = git@github.com:casys-kaist/AMP-experiment-scripts.git
+[submodule "qemu"]
+	path = qemu
+	url = https://github.com/qemu/qemu.git
+[submodule "runqemu"]
+	path = runqemu
+	url = git@github.com:casys-kaist/runqemu.git
+[submodule "benchmark-dockerfile"]
+	path = benchmark-dockerfile
+	url = git@github.com:casys-kaist/benchmark-dockerfile.git
+[submodule "linux-v4.15-page-hotness-profiling"]
+	path = linux-v4.15-page-hotness-profiling
+	url = git@github.com:casys-kaist/linux-v4.15-page-hotness-profiling.git
+[submodule "linux-v4.15-page-migration"]
+	path = linux-v4.15-page-migration
+	url = git@github.com:casys-kaist/linux-v4.15-page-migration.git
+[submodule "linux-v4.15-vanilla"]
+	path = linux-v4.15-vanilla
+	url = git@github.com:casys-kaist/linux-v4.15-vanilla.git
+[submodule "AMP-experiment-library"]
+	path = AMP-experiment-library
+	url = git@github.com:casys-kaist/AMP-experiment-library.git
+[submodule "vanil"]
+	path = linux-v4.15-vanilla
+	url = git@github.com:casys-kaist/linux-v4.15-page-migration.git
