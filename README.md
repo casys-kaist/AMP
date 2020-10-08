@@ -59,6 +59,8 @@ CONFIG_KGDB_KDB=y
 CONFIG_KDB_KEYBOARD=y
 ```
 
+* Run `check-config.sh` to make sure that the kernel configuration supports docker.
+
 * Update the GRUB options to enable kernel debugging (`console`) and to increase the dmesg buffer size (`log_buf_len`).
 ```
 GRUB_CMDLINE_LINUX="console=tty0 console=ttyS0,115200n8 log_buf_len=536870912"
