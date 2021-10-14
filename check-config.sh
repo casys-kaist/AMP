@@ -1,3 +1,5 @@
+# This scripts checks whether the kernel config supports cgroup.
+
 #!/usr/bin/env bash
 set -e
 
