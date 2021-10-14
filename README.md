@@ -28,7 +28,7 @@ $ sudo make install -j$(nproc)
 ```
 ## 4. Create a Guest Virtual Machine
 ```
-$ wget http://mirror.kakao.com/ubuntu-releases/bionic/ubuntu-18.04.5-live-server-amd64.iso
+$ wget https://mirror.kakao.com/ubuntu-releases/bionic/ubuntu-18.04.6-desktop-amd64.iso
 $ qemu-img create ubuntu.img 100G
 $ qemu-system-x86_64 \
   -enable-kvm \
