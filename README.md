@@ -36,7 +36,7 @@ $ qemu-system-x86_64 \
   -netdev user,id=hostnet0,hostfwd=tcp::2222-:22 \
   -device virtio-net-pci,netdev=hostnet0,id=net0,bus=pci.0,addr=0x3 \
   -m 2048 \
-  -boot d -cdrom ./ubuntu-18.04.5-live-server-amd64.iso \
+  -boot d -cdrom ./ubuntu-18.04.6-desktop-amd64.iso \
   -vnc :0
 ```
 ## 5. Update the Guest Machine's Linux Kernel
